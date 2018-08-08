@@ -1,4 +1,4 @@
-a = 6
-b = 2
+a = int(input())
+b = int(input())
 n = a**b
 print(n)
