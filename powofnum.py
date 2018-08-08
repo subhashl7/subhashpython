@@ -1,4 +1,4 @@
-a = int(input())
-b = int(input())
-n = a**b
-print(n)
+a,b=input().split()
+a,b=int(a),int(b)
+print(a**b)
+
