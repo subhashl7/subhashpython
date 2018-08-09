@@ -1,4 +1,4 @@
-#subbu#primenum betwn two int:
+#subbu#primenumbbetwen two numb:
 a,b = map(int,input().split())  
 for num in range(a,b+1):  
    if num > 1:  
@@ -6,4 +6,5 @@ for num in range(a,b+1):
            if (num % i) == 0:  
                break  
        else:  
-           print (num)
+           print(num, end = ' ')
+                
