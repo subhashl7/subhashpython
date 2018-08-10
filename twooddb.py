@@ -1,6 +1,6 @@
 #subbu#odd num betwn num:
 a,b = map(int,input().split())
-for num in range(a,b+1):
+for num in range(a+1,b):
     if(num%2!=0):
         print(num,end=' ')
                 
