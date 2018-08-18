@@ -7,7 +7,7 @@ while(s==0):
     l=list[s]
     list.remove(list[0])
     if((l in list)and(l not in new)):
-        print(l,end=" ")
+        print(l,sep=" ",end=" ")
         new.insert(r,l)
         r+=1
     elif((new==[])and(list==[])):
