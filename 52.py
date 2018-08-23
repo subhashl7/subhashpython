@@ -1,3 +1,3 @@
-k = ['one','two','three','four','five','six','seven','eight','nine','ten']
+k = ['One','Two','Three','Four','Five','Six','Seven','Eight','Nine','Ten']
 N = int(input())
 print(k[(N)-1])
