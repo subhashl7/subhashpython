@@ -1,4 +1,4 @@
-N = int(input("enter the fibanacci sequence"))
+N = int(input())
 t1=0
 t2=1
 for x in range(0,N):
